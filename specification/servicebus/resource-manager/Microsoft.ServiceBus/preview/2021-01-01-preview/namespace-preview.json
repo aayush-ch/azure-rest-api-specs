@@ -727,6 +727,10 @@
           "items": {
             "$ref": "#/definitions/PrivateEndpointConnection"
           }
+        },
+        "disableLocalAuth": {
+          "type": "boolean",
+          "description": "Enabling this property permits SAS authentication to be used for the Service Bus namespace."
         }
       },
       "description": "Properties of the namespace."

@@ -674,6 +674,10 @@
               "items": {
                 "$ref": "#/definitions/PrivateEndpointConnection"
               }
+            },
+            "disableLocalAuth": {
+              "type": "boolean",
+              "description": " Enabling this property permits SAS authentication to be used for the Event Hubs namespace."
             }
           },
           "description": "Namespace properties supplied for create namespace operation."
